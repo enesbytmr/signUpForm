@@ -1,0 +1,38 @@
+/*
+nunis font 
+font-family: 'Nunito', sans-serif;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    display: flex;
+}
+:root{
+    --main-color1:#2E0249;
+    --main-color2:#570A57;
+    --main-color3:#A91079;
+    --main-color4:#F806CC;
+
+    --main: 40vw;
+    --form: calc(100vw - var(--main))
+}
+
+#main{
+    background-color: var(--main-color2);
+    width: var(--main);
+    height: 100vh;
+
+}
+#form{
+    background-color: var(--main-color3);
+    width: var(--form);
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+}
